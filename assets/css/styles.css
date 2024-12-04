@@ -1,0 +1,112 @@
+/*==================== RESET ====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2.5rem;
+ 
+}
+
+section {
+  border: 2px ; 
+  margin-left: 0; 
+  padding: 16px; 
+  text-align: justify; 
+  width: 80%; 
+  box-sizing: border-box; 
+}
+/*==================== HEADER ====================*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header p {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+/*==================== LOGO ====================*/
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: .4s;
+}
+
+.nav__logo:hover {
+  color: black;
+
+}
+
+/*==================== MENU ====================*/
+.nav {
+  display: flex;
+}
+
+.nav__menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+.nav__menu li {
+  margin: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav__link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#services ul {
+  padding: 20px;
+}
+/*==================== FOOTER ====================*/
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .nav__menu {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
+
+  .background-container {
+      height: auto;
+  }
+}
