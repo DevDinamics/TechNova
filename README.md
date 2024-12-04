@@ -30,4 +30,4 @@ Página de inicio para "TechNova", una empresa ficticia dedicada a la innovació
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/TU-USUARIO/TechNova.git
+   git clone https://github.com/devdinamics/TechNova.git
